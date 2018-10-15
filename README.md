@@ -1,2 +1,3 @@
-# emmm
-权当学习了
+# leetcode
+
+Try to improve the level of the algorithm
