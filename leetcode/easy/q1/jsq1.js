@@ -1,3 +1,4 @@
+// 待优化
 var twoSum = function(nums, target) {
     var arr = []
     for(let i = 0; i < nums.length; i++){
@@ -11,3 +12,5 @@ var twoSum = function(nums, target) {
     }
     return arr;
 };
+
+console.log(twoSum([2,7,11,15,6,4,2], 9));
