@@ -4,9 +4,7 @@
  */
 
 var isPalindrome = function(x) {
-    var bool;
+    if(x < 0 || x %10 === 0 && x != 0){return false}
     var re = Number(x.toString().split('').reverse().join(''));
-    console.log("x:" + x + " re:" + re);
-    (x===re)? bool = true : bool = false;
-    return bool
+    return x===re
 };
